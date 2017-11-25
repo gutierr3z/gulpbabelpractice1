@@ -9,6 +9,6 @@ gulp.task( 'es6', () => {
         .pipe( gulp.dest( 'build' ));
 });
 
-gulp.tast( 'default', () => {
+gulp.tast( 'default', ['es6'], () => {
     gulp.watch( 'src/app.js', ['es6'] );
-})
+});
