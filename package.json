@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/gutierr3z/gulpbabelpractice1/issues"
   },
-  "homepage": "https://github.com/gutierr3z/gulpbabelpractice1#readme"
+  "homepage": "https://github.com/gutierr3z/gulpbabelpractice1#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
+  }
 }
