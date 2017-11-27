@@ -13,4 +13,3 @@ gulp.task( 'default', ['es6'], () => {
     gulp.watch( 'src/app.js', ['es6'] );
 });
 
-
